@@ -4,9 +4,7 @@
 ✨ Este projeto implementa um gerador e solucionador de Sudoku 9x9 completo com feedback visual, com capacidade para:
 
     Gerar tabuleiros 9x9 de Sudoku válidos
-
     Resolver tabuleiros 9x9 criados
-
     Visualizar o processo em tempo real usando 'matplotlib'
 
 O algoritmo usado em ambos os casos é o 'backtracking' e, sendo assim, às vezes o programa pode demorar um pouco mais para criar/resolver o Sudoku.
@@ -19,6 +17,7 @@ O programa gera:
     table.csv - Tabela com os espaços vazios
     solution.csv - Tabela com a solução encontrada pelo 'sudoku_solver.py'
 ### ⚙️ Fluxo de Geração
+![](https://github.com/rickribeiroo/sudoku/blob/main/sudoku_generation.gif)
 ```mermaid
 graph TD
     A[Início] --> B[Tabuleiro Vazio]
@@ -32,6 +31,7 @@ graph TD
     H --> I[Puzzle Final]
 ```
 ### 🧩 Fluxo de Solução
+![](https://github.com/rickribeiroo/sudoku/blob/main/sudoku_solution.gif)
 ```mermaid
 graph TD
     A[Início] --> B[Carrega Tabuleiro]
